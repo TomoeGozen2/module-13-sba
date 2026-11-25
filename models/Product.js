@@ -30,3 +30,7 @@ const productSchema = new Schema({
         default: Date.now()
     }
 })
+
+const Product = model("Product", productSchema)
+
+export default Product;
